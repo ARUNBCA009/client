@@ -2,6 +2,7 @@ import { Table } from "react-bootstrap";
 // import UserContext from "./Context"; 
 // import { useContext } from "react";
 import {useState, useEffect} from "react";
+import "./alldata.css";
 import axios from 'axios';
 export default function Alldata(){
 // let users=useContext(UserContext)
@@ -24,11 +25,11 @@ return(
 <table class="table">
       <thead>
         <tr>
-            <th scope="col">Name</th>
-            <th scope="col">Email</th>
-            <th scope="col">Password</th>
-            <th scope="col">Balance</th>
-            <th scope="col">Delete</th>
+            <th scope="col">NAME</th>
+            <th scope="col">EMAIL</th>
+            <th scope="col">PASSWORD</th>
+            <th scope="col">BALANCE</th>
+            <th scope="col">DELETE</th>
 
 
         </tr>

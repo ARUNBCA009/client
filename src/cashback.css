@@ -1,0 +1,96 @@
+/* Cashback Page - Linear Gradient Background */
+.cashback-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient();
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Cashback Title */
+.cashback-title {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.cashback-form {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 25px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Input Field */
+.cashback-input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* Input Focus Effect */
+.cashback-input:focus {
+    border: 2px solid #ff2d75;
+    box-shadow: 0px 0px 8px rgba(255, 45, 117, 0.8);
+}
+
+/* Error Styling */
+.error-input {
+    border: 2px solid #dc3545 !important;
+}
+
+.error-text {
+    color: #ffdddd;
+    font-size: 14px;
+    margin-top: 5px;
+    background: BLACK;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Submit Button */
+.cashback-button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #28a745;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.cashback-button:hover {
+    background: #ff1654;
+}
+
+/* Balance Display */
+.balance-text {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.6);
+}

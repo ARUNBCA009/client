@@ -13,6 +13,45 @@
   }
 }
 
+/* Apply background image to the entire app */
+body {
+  background: url('./images/react-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Dark overlay to improve readability */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Slight dark overlay */
+  z-index: -1;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: black !important;
+}
+
+/* Improve visibility of navbar links */
+.navbar-nav .nav-link {
+  font-size: 18px;
+  color: white !important;
+}
+
+/* Center the content */
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
